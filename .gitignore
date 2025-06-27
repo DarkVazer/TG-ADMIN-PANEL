@@ -123,6 +123,11 @@ Desktop.ini
 *.bak
 *.tmp
 
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
 # Database backups
 *.db.backup
 *.sqlite.backup 
