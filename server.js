@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require('uuid');
 const TelegramBot = require('node-telegram-bot-api');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 // Logging and monitoring system
 const MAX_LOGS = 1000; // Limit log storage to prevent memory leaks
